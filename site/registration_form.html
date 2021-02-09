@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Course Registration Form</title>
+</head>
+<body style="background-color: skyblue">
+	<img src="logo.jpeg" alt="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.quora.com%2FHow-are-the-Computer-Science-placements-at-NIT-Warangal&psig=AOvVaw3XowT5YoGFFlOBpFoL_YJv&ust=1612952403591000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC6kIvK3O4CFQAAAAAdAAAAABAI" width="100px" height="100px">
+	<h1 style="align">National Institude of Technology, Warangal</h1>
+	<h2><em>Course Registration for B.Tech</em></h2>
+	<h3>Academic year: <mark>2020-21</mark>   Semester:<mark>Even</mark></h3>
+	<form>
+		<fieldset>
+			<legend>Personal Info</legend>
+					<label for="fname">First name:</label><br>
+					<input type="text" id="fname" name="fname"><br><br>
+					<label for="Email-id">Email-id:</label><br>
+					<input type="email" id="Email-id" name="Email-Id"><br><br>
+					<label for="rollno">Roll Number:</label><br>
+					<input type="number" id="rollno" name="rollno"><br><br>
+		</fieldset>
+		<label for="courses">Select the courses you want to register for:</label>
+		<select id="courses" name="courses" multiple>
+			<option value="dn">Data Networks</option>
+			<option value="itc">Information Theory and Coding</option>
+			<option value="ertos">Embedded and Real-Time Operating Systems</option>
+			<option value="dsp">Digital Signal Processing</option>
+			<option value="webtech">Departmental Elective: Web Techologies</option>
+			<option value="vlsi">Departmental Elective:Low-Power VLSI</option>
+			<option value="dnlab">Data Networks Lab</option>
+			<option value="cslab">Communication Systems Lab</option>
+			<option value="oe1">Open Elective:Marketing Management</option>
+			<option value="oe2">Open Elective:OOPS</option>
+			<option value="oe3">Open Elective:Green Technology</option>
+			<option value="oe4">Open Elective:Environmental Impact Analysis</option>
+			<option value="oe5">Open Elective:Automotive Mechanics</option>
+			<option value="oe6">Open Elective:Fundamentals of Materials</option>
+			<option value="oe7">Open Elective:Instrumental Methods of Chemical Analysis</option>
+			<option value="oe8">Open Elective:Communcation Systems</option>
+		</select><br><br>
+		<label for="confirm">Have you filled every option</label>
+		<input type="checkbox" id="checkbox" name="checkbox" value="Yes"><br>
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+</body>
